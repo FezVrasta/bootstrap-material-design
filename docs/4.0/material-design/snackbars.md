@@ -28,9 +28,9 @@ In order to make snackbars work, make sure to include `snackbar.min.js` before `
 </script>
 {% endhighlight %}
 
-{% callout info %}
+
 **Heads up!** You don't need to include SnackbarJS CSS, it's already bundled in Material Design for Bootstrap.
-{% endcallout %}
+
 
 ## Examples
 

@@ -259,9 +259,9 @@ Here's how you can use these in your Sass:
 
 [Color utility classes]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/colors/) are also available for setting `color` and `background-color`.
 
-{% callout info %}
+
 In the future, we'll aim to provide Sass maps and variables for shades of each color as we've done with the grayscale colors below.
-{% endcallout %}
+
 
 ### Theme colors
 
