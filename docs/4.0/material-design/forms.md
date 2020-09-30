@@ -101,10 +101,10 @@ Below is a complete list of options supported by Material Design for Bootstrap a
         Any group of form controls (e.g. combination of label/input).
       </td>
       <td>
-        {% markdown %}This is automatically added by javascript, but if your code is templated, adding `.bmd-form-group` 
+        This is automatically added by javascript, but if your code is templated, adding `.bmd-form-group` 
         to your form groups or otherwise your groups of controls can reduce rendering churn since the javascript will not
         add the class after the initial page rendering.  This can also demarcate complex label/input combinations inside the 
-        same `.form-group`.{% endmarkdown %}
+        same `.form-group`.
       </td>
     </tr>
     <tr>
@@ -112,10 +112,10 @@ Below is a complete list of options supported by Material Design for Bootstrap a
         <code>.bmd-form-group-sm</code>
       </td>
       <td>
-        {% markdown %}Added to the `.bmd-form-group`, this will render the combination label/input/help in the smaller variation.{% endmarkdown %}
+        Added to the `.bmd-form-group`, this will render the combination label/input/help in the smaller variation.
       </td>
       <td>
-        {% markdown %}{% endmarkdown %}
+        
       </td>
     </tr>    
     <tr>
@@ -123,10 +123,10 @@ Below is a complete list of options supported by Material Design for Bootstrap a
         <code>.bmd-form-group-lg</code>
       </td>
       <td>
-        {% markdown %}Added to the `.bmd-form-group`, this will render the combination label/input/help in the larger variation.{% endmarkdown %}
+        Added to the `.bmd-form-group`, this will render the combination label/input/help in the larger variation.
       </td>
       <td>
-        {% markdown %}{% endmarkdown %}
+        
       </td>
     </tr>     
     <tr>
@@ -137,7 +137,7 @@ Below is a complete list of options supported by Material Design for Bootstrap a
         Any help text
       </td>
       <td>
-        {% markdown %}Mark any help text next to an input with `.bmd-help` to gain behaviors such as showing upon focus.{% endmarkdown %}
+        Mark any help text next to an input with `.bmd-help` to gain behaviors such as showing upon focus.
       </td>
     </tr>    
   </tbody>

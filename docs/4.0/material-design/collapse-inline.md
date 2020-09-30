@@ -27,14 +27,14 @@ Below is a list of relevant classes options:
         <code>.bmd-collapse-inline</code>
       </td>
       <td>
-        {% markdown %}Marker class. It is usually included on the `.bmd-form-group` if the collapse scenario has any inputs.{% endmarkdown %}
+        Marker class. It is usually included on the `.bmd-form-group` if the collapse scenario has any inputs.
       </td>
     </tr>
     <tr>
       <td>
         <code>.collapse</code>
       </td>
-      <td>{% markdown %}A bootstrap class signifying the container element for markup that will be initially hidden, but expanded inline.{% endmarkdown %}
+      <td>A bootstrap class signifying the container element for markup that will be initially hidden, but expanded inline.
       </td>
     </tr>
   </tbody>

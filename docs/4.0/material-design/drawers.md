@@ -133,7 +133,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
         <code>.bmd-drawer-f-t</code>
       </td>
       <td>
-        {% markdown %}Fixed top{% endmarkdown %}
+        Fixed top
       </td>
     </tr>
     <tr>
@@ -141,7 +141,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
         <code>.bmd-drawer-f-r</code>
       </td>
       <td>
-        {% markdown %}Fixed right{% endmarkdown %}
+        Fixed right
       </td>
     </tr>
     <tr>
@@ -149,7 +149,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
         <code>.bmd-drawer-f-b</code>
       </td>
       <td>
-        {% markdown %}Fixed bottom{% endmarkdown %}
+        Fixed bottom
       </td>
     </tr>
     <tr>
@@ -157,7 +157,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
         <code>.bmd-drawer-f-l</code>
       </td>
       <td>
-        {% markdown %}Fixed left{% endmarkdown %}
+        Fixed left
       </td>
     </tr>
   </tbody>

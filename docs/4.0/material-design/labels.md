@@ -19,7 +19,7 @@ Below is a complete list of `<label>` class options supported by Material Design
         <code>.bmd-label-static</code>
       </td>
       <td>
-        {% markdown %}Statically positioned above the input{% endmarkdown %}
+        Statically positioned above the input
       </td>
     </tr>
     <tr>
@@ -27,14 +27,14 @@ Below is a complete list of `<label>` class options supported by Material Design
         <code>.bmd-label-placeholder</code>
       </td>
       <td>
-{% markdown %}
+
 Renders a `<label>` as a placeholder
 
 - _focused_: not visible after first keystroke
 - _unfocused & empty_: placeholder
 - _unfocused & filled_: not visible
 - do not use the placeholder attribute with this option      
-{% endmarkdown %}
+
       </td>
     </tr>
     <tr>
@@ -42,13 +42,13 @@ Renders a `<label>` as a placeholder
         <code>.bmd-label-floating</code>
       </td>
       <td>
-{% markdown %}
+
 Animated combination of placeholder and label: 
 
 - _focused_: label animates from placeholder to static label
 - _unfocused & empty_: placeholder
 - _unfocused & filled_: renders the same as `.bmd-label-static`
-{% endmarkdown %}
+
       </td>
     </tr>
   </tbody>

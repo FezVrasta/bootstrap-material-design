@@ -226,7 +226,7 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
         <code>.list-group-item</code>
       </td>
       <td>
-        {% markdown %}Flexbox layout, including conveniences for icon and label layout.{% endmarkdown %}
+        Flexbox layout, including conveniences for icon and label layout.
       </td>
     </tr>
     <tr>
@@ -234,10 +234,10 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
         <code>.bmd-list-group-col</code>
       </td>
       <td class="text-nowrap">
-        {% markdown %}None{% endmarkdown %}
+        None
       </td>
       <td>
-        {% markdown %}Flexbox column - additional class to use within an `.list-group-item` for layout, such as a multi-line content section.{% endmarkdown %}
+        Flexbox column - additional class to use within an `.list-group-item` for layout, such as a multi-line content section.
       </td>
     </tr>
     <tr>
@@ -245,10 +245,10 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
         <code>.bmd-list-group-sm</code>
       </td>
       <td class="text-nowrap">
-        {% markdown %}None{% endmarkdown %}
+        None
       </td>
       <td>
-        {% markdown %}Use on `.bmd-list-group` for the dense list display{% endmarkdown %}
+        Use on `.bmd-list-group` for the dense list display
       </td>
     </tr>
 
@@ -277,7 +277,7 @@ See `variables/_list-group.scss` for a complete list of variables.  Key variable
         <code>inherit</code>
       </td>
       <td>
-        {% markdown %}Original value was `#fff`, but it seemed that too often list-groups needed the background to be inherited from the underlying container.{% endmarkdown %}
+        Original value was `#fff`, but it seemed that too often list-groups needed the background to be inherited from the underlying container.
       </td>
     </tr>
   </tbody>
