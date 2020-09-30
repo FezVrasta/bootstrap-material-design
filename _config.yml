@@ -13,7 +13,7 @@ source:           .
 destination:      ./_gh_pages
 port:             9001
 baseurl:          "/bootstrap-material-design"
-url:              https://fezvrasta.github.io
+url:              https://bootstrap-material-design.github.io
 encoding:         UTF-8
 exclude:          [.git, .github, assets/scss/, build, js, node_modules, nuget, scss, vendor, bower.json, composer.json, Gemfile, Gemfile.lock, Gruntfile.js, package.js, package.json, package-lock.json, sache.json]
 
@@ -33,12 +33,12 @@ social_image_path: /assets/brand/bootstrap-social.png
 # Custom vars
 current_version:  4.1.1
 docs_version:     4.0
-repo:             https://github.com/FezVrasta/bootstrap-material-design
+repo:             https://github.com/bootstrap-material-design/bootstrap-material-design
 spectrum:         https://spectrum.chat/bootstrap-md
 
 download:
-  source:         https://github.com/FezVrasta/bootstrap-material-design/releases
-  dist:           https://github.com/FezVrasta/bootstrap-material-design/archive/dist.zip
+  source:         https://github.com/bootstrap-material-design/bootstrap-material-design/releases
+  dist:           https://github.com/bootstrap-material-design/bootstrap-material-design/archive/dist.zip
 
 blog:             https://blog.getbootstrap.com
 expo:             https://expo.getbootstrap.com
