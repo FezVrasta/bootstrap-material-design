@@ -52,7 +52,7 @@ A manual drawer toggle can be integrated with data attributes.  For responsive d
 ### Push
 
 The default behavior is for content to be pushed.
-{% example html id=drawer-s1 %}
+
 <div class="bmd-layout-container bmd-drawer-f-l">
   <header class="bmd-layout-header">
     <div class="navbar navbar-light bg-faded">
@@ -86,7 +86,7 @@ The default behavior is for content to be pushed.
 ### Overlay
 Optional behavior will overlay the drawer and provide a backdrop.  This can be marked with `bmd-drawer-overlay` to always overlay, or you can use a responsive class such as `bmd-drawer-overlay-md-down`.
 
-{% example html id=drawer-s2 %}
+
 <div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay">
   <header class="bmd-layout-header">
     <div class="navbar navbar-light bg-faded">
@@ -166,7 +166,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
 
 ### Fixed left
 
-{% example html id=drawer-p1 %}
+
 <div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay">
   <header class="bmd-layout-header">
     <div class="navbar navbar-light bg-faded">
@@ -199,7 +199,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
 
 ### Fixed right
 
-{% example html id=drawer-p2 %}
+
 <div class="bmd-layout-container bmd-drawer-f-r bmd-drawer-overlay">
   <header class="bmd-layout-header">
     <div class="navbar navbar-light bg-faded">
@@ -232,7 +232,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
 
 ### Fixed top
 
-{% example html id=drawer-p3 %}
+
 <div class="bmd-layout-container bmd-drawer-f-t bmd-drawer-overlay">
   <header class="bmd-layout-header">
     <div class="navbar navbar-light bg-faded">
@@ -265,7 +265,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
 
 ### Fixed bottom
 
-{% example html id=drawer-p4 %}
+
 <div class="bmd-layout-container bmd-drawer-f-b bmd-drawer-overlay">
   <header class="bmd-layout-header">
     <div class="navbar navbar-light bg-faded">

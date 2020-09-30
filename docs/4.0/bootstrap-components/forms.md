@@ -458,7 +458,6 @@ As shown in the previous examples, our grid system allows you to place any numbe
     </div>
   </div>
 </form>
-{% endexample html %}
 
 #### Auto-sizing
 
