@@ -14,7 +14,7 @@ Navigation available in Bootstrap share general markup and styles, from the base
 
 ## Tabs
 
-{% example html %}
+
 <ul class="nav nav-tabs">
   <li class="nav-item">
     <a class="nav-link active" href="#">Active</a>
@@ -61,4 +61,4 @@ Navigation available in Bootstrap share general markup and styles, from the base
     <a class="nav-link disabled" href="#">Disabled</a>
   </li>
 </ul>
-{% endexample %}
+

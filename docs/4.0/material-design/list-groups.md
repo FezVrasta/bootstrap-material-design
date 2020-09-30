@@ -17,7 +17,7 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
 
 ### Text
 
-{% example html %}
+
 <ul class="list-group">
   <li class="list-group-item">Text only</li>
   <a href="#" class="list-group-item">Link item</a>
@@ -25,11 +25,11 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
   <a href="#" class="list-group-item active">Active link item</a>
   <a href="#" class="list-group-item disabled">Disabled item</a>
 </ul>
-{% endexample %}
+
 
 ### Dense
 
-{% example html %}
+
 <ul class="list-group bmd-list-group-sm">
   <li class="list-group-item">Text</li>
   <a href="#" class="list-group-item">Link item</a>
@@ -37,11 +37,11 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
   <a href="#" class="list-group-item active">Active link item</a>
   <a href="#" class="list-group-item disabled">Disabled item</a>
 </ul>
-{% endexample %}
+
 
 ### Icons and labels
 
-{% example html %}
+
 <ul class="list-group">
   <a class="list-group-item">
     <i class="material-icons">inbox</i>
@@ -83,7 +83,7 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
     <span class="label label-default label-pill">14</span>
   </a>  
 </ul>
-{% endexample %}
+
 
 
 
@@ -91,7 +91,7 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
 
 ###  Text
 
-{% example html %}
+
 <ul class="list-group">
   <a class="list-group-item">
     <div class="bmd-list-group-col">
@@ -112,11 +112,11 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
     </div>
   </a>  
 </ul>
-{% endexample %}
+
 
 ###  Dense
 
-{% example html %}
+
 <ul class="list-group bmd-list-group-sm">
   <a class="list-group-item">
     <div class="bmd-list-group-col">
@@ -137,11 +137,11 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
     </div>
   </a>  
 </ul>
-{% endexample %}
+
 
 ###  Icons and labels
 
-{% example html %}
+
 <ul class="list-group">
   <a class="list-group-item">
     <i class="material-icons">inbox</i>
@@ -184,13 +184,13 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
     <span class="label label-default label-pill pull-xs-right">14</span>
   </a>
 </ul>
-{% endexample %}
+
 
 ## Three line
 
 ###  Text
 
-{% example html %}
+
 <ul class="list-group">
   <a class="list-group-item">
     <div class="bmd-list-group-col">
@@ -205,7 +205,7 @@ the varieties specified. ([Specification](https://www.google.com/design/spec/com
     </div>
   </li>
 </ul>
-{% endexample %}
+
 
 ## Classes
 

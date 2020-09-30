@@ -61,7 +61,7 @@ Animated combination of placeholder and label:
 
 ## Styles
 
-{% example html %}
+
 <form>
   <fieldset class="form-group">
     <label for="exampleInputEmail1" class="bmd-label-static">label-static</label>
@@ -79,4 +79,4 @@ Animated combination of placeholder and label:
     <span class="bmd-help">We'll never share your email with anyone else.</span>
   </fieldset>
 </form>
-{% endexample %}
+

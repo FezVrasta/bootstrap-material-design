@@ -50,7 +50,7 @@ Below is a list of relevant classes options:
 
 Click the search icon below (on the right).  
 
-{% example html %}
+
 <div class="bmd-form-group bmd-collapse-inline pull-xs-right">
   <button class="btn bmd-btn-icon" for="search" data-toggle="collapse" data-target="#collapse-search" aria-expanded="false" aria-controls="collapse-search">
     <i class="material-icons">search</i>
@@ -59,7 +59,7 @@ Click the search icon below (on the right).
     <input class="form-control" type="text" id="search" placeholder="Enter your query...">
   </span>
 </div>
-{% endexample %}
+
 
 ### Javascript event example
 

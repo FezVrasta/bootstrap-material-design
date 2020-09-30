@@ -81,7 +81,7 @@ The default behavior is for content to be pushed.
     </div>
   </main>
 </div>
-{% endexample %}
+
 
 ### Overlay
 Optional behavior will overlay the drawer and provide a backdrop.  This can be marked with `bmd-drawer-overlay` to always overlay, or you can use a responsive class such as `bmd-drawer-overlay-md-down`.
@@ -115,7 +115,7 @@ Optional behavior will overlay the drawer and provide a backdrop.  This can be m
     </div>
   </main>
 </div>
-{% endexample %}
+
 
 ## Positions
 
@@ -195,7 +195,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
     </div>
   </main>
 </div>
-{% endexample %}
+
 
 ### Fixed right
 
@@ -228,7 +228,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
     </div>
   </main>
 </div>
-{% endexample %}
+
 
 ### Fixed top
 
@@ -261,7 +261,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
     </div>
   </main>
 </div>
-{% endexample %}
+
 
 ### Fixed bottom
 
@@ -294,7 +294,7 @@ The following positioning marker classes should be placed on the `bmd-layout-con
     </div>
   </main>
 </div>
-{% endexample %}
+
 
 ## Customization
 

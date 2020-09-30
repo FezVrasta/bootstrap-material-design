@@ -26,7 +26,7 @@ Carousels don't automatically normalize slide dimensions. As such, you may need 
 
 Here's a carousel with slides only. Note the presence of the `.d-block` and `.img-fluid` on carousel images to prevent browser default image alignment.
 
-{% example html %}
+
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -40,13 +40,13 @@ Here's a carousel with slides only. Note the presence of the `.d-block` and `.im
     </div>
   </div>
 </div>
-{% endexample %}
+
 
 ### With controls
 
 Adding in the previous and next controls:
 
-{% example html %}
+
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -68,13 +68,13 @@ Adding in the previous and next controls:
     <span class="sr-only">Next</span>
   </a>
 </div>
-{% endexample %}
+
 
 ### With indicators
 
 You can also add the indicators to the carousel, alongside the controls, too.
 
-{% example html %}
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -101,7 +101,7 @@ You can also add the indicators to the carousel, alongside the controls, too.
     <span class="sr-only">Next</span>
   </a>
 </div>
-{% endexample %}
+
 
 ### With captions
 
@@ -162,7 +162,7 @@ Add captions to your slides easily with the `.carousel-caption` element within a
 
 Add `.carousel-fade` to your carousel to animate slides with a fade transition instead of a slide.
 
-{% example html %}
+
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -184,7 +184,7 @@ Add `.carousel-fade` to your carousel to animate slides with a fade transition i
     <span class="sr-only">Next</span>
   </a>
 </div>
-{% endexample %}
+
 
 
 ## Usage

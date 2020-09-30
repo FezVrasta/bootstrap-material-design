@@ -30,7 +30,7 @@ Wrap the dropdown's toggle (your button or link) and the dropdown menu within `.
 
 Any single `.btn` can be turned into a dropdown toggle with some markup changes. Here's how you can put them to work with either `<button>` elements:
 
-{% example html %}
+
 <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Dropdown button
@@ -41,11 +41,11 @@ Any single `.btn` can be turned into a dropdown toggle with some markup changes.
     <a class="dropdown-item" href="#">Something else here</a>
   </div>
 </div>
-{% endexample %}
+
 
 And with `<a>` elements:
 
-{% example html %}
+
 <div class="dropdown show">
   <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Dropdown link
@@ -57,7 +57,7 @@ And with `<a>` elements:
     <a class="dropdown-item" href="#">Something else here</a>
   </div>
 </div>
-{% endexample %}
+
 
 The best part is you can do this with any button variant, too:
 
@@ -539,7 +539,7 @@ Trigger dropdown menus at the left of the elements by adding `.dropleft` to the 
 
 Historically dropdown menu contents *had* to be links, but that's no longer the case with v4. Now you can optionally use `<button>` elements in your dropdowns instead of just `<a>`s.
 
-{% example html %}
+
 <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Dropdown
@@ -550,42 +550,42 @@ Historically dropdown menu contents *had* to be links, but that's no longer the 
     <button class="dropdown-item" type="button">Something else here</button>
   </div>
 </div>
-{% endexample %}
+
 
 You can also create non-interactive dropdown items with `.dropdown-item-text`. Feel free to style further with custom CSS or text utilities.
 
-{% example html %}
+
 <div class="dropdown-menu">
   <span class="dropdown-item-text">Dropdown item text</span>
   <a class="dropdown-item" href="#">Action</a>
   <a class="dropdown-item" href="#">Another action</a>
   <a class="dropdown-item" href="#">Something else here</a>
 </div>
-{% endexample %}
+
 
 ### Active
 
 Add `.active` to items in the dropdown to **style them as active**.
 
-{% example html %}
+
 <div class="dropdown-menu">
   <a class="dropdown-item" href="#">Regular link</a>
   <a class="dropdown-item active" href="#">Active link</a>
   <a class="dropdown-item" href="#">Another link</a>
 </div>
-{% endexample %}
+
 
 ### Disabled
 
 Add `.disabled` to items in the dropdown to **style them as disabled**.
 
-{% example html %}
+
 <div class="dropdown-menu">
   <a class="dropdown-item" href="#">Regular link</a>
   <a class="dropdown-item disabled" href="#">Disabled link</a>
   <a class="dropdown-item" href="#">Another link</a>
 </div>
-{% endexample %}
+
 
 ## Menu alignment
 
@@ -595,7 +595,7 @@ By default, a dropdown menu is automatically positioned 100% from the top and al
 **Heads up!** Dropdowns are positioned thanks to Popper.js (except when they are contained in a navbar).
 {% endcallout %}
 
-{% example html %}
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Right-aligned menu
@@ -606,7 +606,7 @@ By default, a dropdown menu is automatically positioned 100% from the top and al
     <button class="dropdown-item" type="button">Something else here</button>
   </div>
 </div>
-{% endexample %}
+
 
 ## Menu content
 
@@ -614,19 +614,19 @@ By default, a dropdown menu is automatically positioned 100% from the top and al
 
 Add a header to label sections of actions in any dropdown menu.
 
-{% example html %}
+
 <div class="dropdown-menu">
   <h6 class="dropdown-header">Dropdown header</h6>
   <a class="dropdown-item" href="#">Action</a>
   <a class="dropdown-item" href="#">Another action</a>
 </div>
-{% endexample %}
+
 
 ### Dividers
 
 Separate groups of related menu items with a divider.
 
-{% example html %}
+
 <div class="dropdown-menu">
   <a class="dropdown-item" href="#">Action</a>
   <a class="dropdown-item" href="#">Another action</a>
@@ -634,13 +634,13 @@ Separate groups of related menu items with a divider.
   <div class="dropdown-divider"></div>
   <a class="dropdown-item" href="#">Separated link</a>
 </div>
-{% endexample %}
+
 
 ### Text
 
 Place any freeform text within a dropdown menu with text and use [spacing utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/spacing/). Note that you'll likely need additional sizing styles to constrain the menu width.
 
-{% example html %}
+
 <div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">
   <p>
     Some example text that's free-flowing within the dropdown menu.
@@ -649,13 +649,13 @@ Place any freeform text within a dropdown menu with text and use [spacing utilit
     And this is more example text.
   </p>
 </div>
-{% endexample %}
+
 
 ### Forms
 
 Put a form within a dropdown menu, or make it into a dropdown menu, and use [margin or padding utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/spacing/) to give it the negative space you require.
 
-{% example html %}
+
 <div class="dropdown-menu">
   <form class="px-4 py-3">
     <div class="form-group">
@@ -678,9 +678,9 @@ Put a form within a dropdown menu, or make it into a dropdown menu, and use [mar
   <a class="dropdown-item" href="#">New around here? Sign up</a>
   <a class="dropdown-item" href="#">Forgot password?</a>
 </div>
-{% endexample %}
 
-{% example html %}
+
+
 <form class="dropdown-menu p-4">
   <div class="form-group">
     <label for="exampleDropdownFormEmail2">Email address</label>
@@ -698,13 +698,13 @@ Put a form within a dropdown menu, or make it into a dropdown menu, and use [mar
   </div>
   <button type="submit" class="btn btn-primary">Sign in</button>
 </form>
-{% endexample %}
+
 
 ## Dropdown options
 
 Use `data-offset` or `data-reference` to change the location of the dropdown.
 
-{% example html %}
+
 <div class="d-flex">
   <div class="dropdown mr-1">
     <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
@@ -730,7 +730,7 @@ Use `data-offset` or `data-reference` to change the location of the dropdown.
     </div>
   </div>
 </div>
-{% endexample %}
+
 
 ## Usage
 

@@ -38,19 +38,19 @@ Click on the buttons below to spawn snackbars and toasts:
 
 ### Snackbar
 
-{% example html %}
+
 <button type="button" class="btn btn-secondary" data-toggle="snackbar" data-content="Free fried chicken here! <a href='https://example.org' class='btn btn-info'>Check it out</a>" data-html-allowed="true" data-timeout="0">
   Snackbar
 </button>
-{% endexample %}
+
 
 ### Toast
 
-{% example html %}
+
 <button type="button" class="btn btn-secondary" data-toggle="snackbar" data-style="toast" data-content="Fried chicken out of stock.">
   Toast
 </button>
-{% endexample %}
+
 
 ## Usage
 

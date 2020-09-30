@@ -12,7 +12,7 @@ Bootstrap provides several form control styles, layout options, and custom compo
 {:toc}
 
 Form controls flavored by Material Design for Bootstrap customizations such as `bmd-label-floating`.
-{% example html %}
+
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1" class="bmd-label-floating">Email address</label>
@@ -78,7 +78,7 @@ Form controls flavored by Material Design for Bootstrap customizations such as `
   <button class="btn btn-default">Cancel</button>
   <button type="submit" class="btn btn-primary btn-raised">Submit</button>
 </form>
-{% endexample %}
+
 
 ## Classes
 
@@ -154,7 +154,7 @@ markup.  If your code is templated, you may want to add `.bmd-form-group` to the
 and adding the class to the markup.  In custom situations, the javascript may not be able to properly resolve the location for the `.bmd-form-group`, so in rare or complex cases
 you may need to wrap your markup in an `.bmd-form-group` to get appropriate focus/hover behavior.
 
-{% example html %}
+
 <form>
   <div class="form-group"> <!-- left unspecified, .bmd-form-group will be automatically added (inspect the code) -->
     <label for="formGroupExampleInput" class="bmd-label-floating">Example label</label>
@@ -165,7 +165,7 @@ you may need to wrap your markup in an `.bmd-form-group` to get appropriate focu
     <input type="text" class="form-control" id="formGroupExampleInput2">
   </div>
 </form>
-{% endexample %}
+
 
 ## Inline forms
 
@@ -179,7 +179,7 @@ Because of this, you may need to manually address the width and alignment of ind
 
 ### Visible labels
 
-{% example html %}
+
 <form class="form-inline">
   <div class="form-group">
     <label for="exampleInputName2" class="bmd-label-floating">Name</label>
@@ -193,7 +193,7 @@ Because of this, you may need to manually address the width and alignment of ind
     <button type="submit" class="btn btn-primary">Send invitation</button>
   </span>
 </form>
-{% endexample %}
+
 
 
 ## Help blocks
@@ -204,7 +204,7 @@ Because of this, you may need to manually address the width and alignment of ind
 
 Multiple help blocks will cause the form to bounce because subsequent blocks are relatively positioned.  The space used when hidden is that of a single help comment only.
 
-{% example html %}
+
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1" class="bmd-label-floating">Email address (two help blocks)</label>
@@ -217,4 +217,4 @@ Multiple help blocks will cause the form to bounce because subsequent blocks are
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>  
 </form>
-{% endexample %}
+

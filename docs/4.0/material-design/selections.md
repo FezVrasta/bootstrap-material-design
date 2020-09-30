@@ -11,7 +11,7 @@ group: material-design
 
 ## Switches
 
-{% example html %}
+
 <form>
   <div class="switch">
     <label>
@@ -32,11 +32,11 @@ group: material-design
     </label>
   </div>
 </form>
-{% endexample %}
+
 
 ## Radios
 
-{% example html %}
+
 <form>
   <div class="radio">
     <label>
@@ -67,11 +67,11 @@ group: material-design
     <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
   </label>   
 </form>
-{% endexample %}
+
 
 ## Checkboxes 
 
-{% example html %}
+
 <form>  
   <div class="checkbox">
     <label>
@@ -100,4 +100,4 @@ group: material-design
     <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
   </label>  
 </form>
-{% endexample %}
+
