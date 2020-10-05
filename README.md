@@ -1,3 +1,3 @@
 ## We moved!
 
-Find the new repository at https://github.com/bootstrap-material-design/bootstrap-material-design
+Find the new repository at https://github.com/mdbootstrap/bootstrap-material-design
